@@ -117,3 +117,15 @@ top: 0;
 0% { transform: translateY(0) rotate(45deg); opacity: 1; }
 100% { transform: translateY(-100vh) rotate(45deg); opacity: 0; }
 }
+/* 🔧 Mobile-specific style */
+@media (max-width: 767px) {
+  .slideshow {
+    width: 100%;       /* Full width on mobile */
+    padding: 0 10px;    /* Optional padding */
+  }
+
+  .slideshow img {
+    width: 100%;
+    height: auto;
+  }
+}
