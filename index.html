@@ -1,40 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Happy Birthday Rejoice</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Rejoice</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<h1 onclick="showMessage()">🎂 Tap to open your message, Rejoice 🎉</h1>
+  <h1 onclick="showMessage()">🎂 Tap to open your message, Rejoice 🎉</h1>
 
-<!-- Slideshow Section -->
-<div class="slideshow">
-<img src="rejoice1.jpg" class="active" alt="Rejoice 1">
-<img src="rejoice2.jpg" alt="Rejoice 2">
-<img src="rejoice3.jpg" alt="Rejoice 3">
-<img src="rejoice4.jpg" alt="Rejoice 4">
-<img src="rejoice5.jpg" alt="Rejoice 5">
-<img src="rejoice6.jpg" alt="Rejoice 6">
-</div>
+  <div class="slideshow">
+    <img src="rejoice1.jpg" class="active" alt="Rejoice 1" />
+    <img src="rejoice2.jpg" alt="Rejoice 2" />
+    <img src="rejoice3.jpg" alt="Rejoice 3" />
+    <img src="rejoice4.jpg" alt="Rejoice 4" />
+    <img src="rejoice5.jpg" alt="Rejoice 5" />
+    <img src="rejoice6.jpg" alt="Rejoice 6" />
+  </div>
 
-<!-- Birthday Message -->
-<div id="message">
-Happy birthday Rejoice you are light and joy all in one.
-<!-- cheers to many more years of laughter, love, and adventure. -->
-May your birthday be filled with memories, love, and everything magical.
-i pray God grants all that your heart desires amen 💖
-</div>
+  <div id="message">
+    Rejoice, you are light and joy all in one.  
+    May your birthday be filled with beautiful memories, laughter, and love. 💖
+  </div>
 
-<!-- Play Button for Music -->
-<button id="playButton">🔊 Play Music</button>
+  <button id="playButton">🔊 Play Music</button>
+  <audio id="bgMusic" src="constellation.mp3" loop></audio>
 
-<!-- Audio File -->
-<audio id="bgMusic" src="constellation.mp3" loop></audio>
-
-<!-- Floating hearts + slideshow + music control scripts -->
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
-
